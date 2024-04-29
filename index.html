@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(240, 230, 255, 0.9); /* Фиолетовый полупрозрачный фон */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+            position: relative; /* Установка позиции для позиционирования изображения */
+        }
+        h1 {
+            color: #6a0dad; /* Фиолетовый заголовок */
+        }
+        p {
+            color: #4e3883; /* Темно-фиолетовый текст */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6a0dad; /* Фиолетовая кнопка */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #4e3883; /* Темно-фиолетовый при наведении */
+        }
+        .image-container {
+            position: absolute;
+            top: calc(100% - 40px); /* Отступ от нижнего края контейнера */
+            left: 50%; /* Расположение по центру */
+            transform: translateX(-50%); /* Сдвигаем влево на половину ширины изображения */
+        }
+        .image-container img {
+            max-width: 100%; /* Чтобы изображение не выходило за границы контейнера */
+            height: auto; /* Автоматическое вычисление высоты */
+            border-radius: 10px; /* Скругляем углы */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать на мой сайт</h1>
+        <p>Вы можете перейти в мой телеграмм канал "Sadness by Life" нажав на кнопку ниже:</p>
+        <a href="https://t.me/sadnessbylife" class="btn">Перейти в канал</a>
+    </div>
+
+    <div class="image-container">
+        <img src="0aa50140d557adcc2737b2442e26da05.jpg" alt="Изображение">
+    </div>
+</body>
+</html>
